@@ -1,0 +1,5 @@
+Choice Variables : Lines 2-5 initialize variables used for the list of assistance able to be given to the user. I decided to implement it like this in case the list of options were to change. This way, if the option changes, only the text stored in the variable, and the output message of the choice wll have to be changed. 
+
+Welcome : Lines 8-19 welcome the user and print out the options. Before the welcome, the user's name and age is stored in their own variables. After the welcome, the user is presented the options of help and asked to pick one. 
+
+Choices : Lines 21-32 are based on the choice of the user. For each of the first four options, after choosing, the user is given back what they chose (since it's only a placeholder I went pretty basic). The last option is to exit the program. When the user picks the last option, the program is exited. 
